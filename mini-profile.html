@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Profile</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+        .container { width: 80%; margin: auto; }
+        header { background: #333; color: white; padding: 20px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 50px 20px; }
+        .portfolio img { width: 100px; height: auto; margin: 10px; }
+        .contact-form input, .contact-form textarea { display: block; width: 100%; margin: 10px 0; padding: 10px; }
+        footer { background: #333; color: white; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mini Profile</h1>
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya seorang pengembang web yang bersemangat dalam menciptakan website modern.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio">
+            <img src="https://via.placeholder.com/100" alt="Project 1">
+            <img src="https://via.placeholder.com/100" alt="Project 2">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mini Profile</p>
+    </footer>
+</body>
+</html>
